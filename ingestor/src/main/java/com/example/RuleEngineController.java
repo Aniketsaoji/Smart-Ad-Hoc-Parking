@@ -26,17 +26,17 @@ public class RuleEngineController {
     @Autowired
     public RuleEngineController(RuleEngineService service) {
         this.service = service;
-        // this.service.initialize();
+         this.service.initialize();
         // this.service.getParkingEvents();
     }
     
-    @CrossOrigin(origins = "https://ayyparking.run.aws-usw02-pr.ice.predix.io")
+    @CrossOrigin(origins = "https://yoparking.run.aws-usw02-pr.ice.predix.io")
     @RequestMapping(value = "/getParkingEvents", method = RequestMethod.GET)
     public void getParkingEvents() {
         service.getParkingEvents();
     }
 
-    @CrossOrigin(origins = "https://ayyparking.run.aws-usw02-pr.ice.predix.io")
+    @CrossOrigin(origins = "https://yoparking.run.aws-usw02-pr.ice.predix.io")
     @RequestMapping(value = "/events", method = RequestMethod.GET)
     public String insert(
             @RequestParam(required = true) long start,
@@ -50,14 +50,14 @@ public class RuleEngineController {
     	service.initialize();
     }
     
-    @CrossOrigin(origins = "https://ayyparking.run.aws-usw02-pr.ice.predix.io")
+    @CrossOrigin(origins = "https://yoparking.run.aws-usw02-pr.ice.predix.io")
     @RequestMapping(value = "/parkingDetails", method = RequestMethod.GET)
     public String getParkingDetails() {
         return service.getParkingDetails();
     }
 
 
-    @CrossOrigin(origins = "https://ayyparking.run.aws-usw02-pr.ice.predix.io")
+    @CrossOrigin(origins = "https://yoparking.run.aws-usw02-pr.ice.predix.io")
     @RequestMapping(value = "/price", method = RequestMethod.GET)
     public double getParkingPrice() {
         return service.getParkingPrice();

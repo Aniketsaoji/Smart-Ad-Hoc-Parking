@@ -4,10 +4,11 @@
     <list default="true" id="1841f12b-c061-4d8d-8f6a-caceb2d12f09" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Smart-Parking-0.1.0.jar" afterPath="$PROJECT_DIR$/target/Smart-Parking-0.1.0.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/Smart-Parking-0.1.0.jar.original" afterPath="$PROJECT_DIR$/target/Smart-Parking-0.1.0.jar.original" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/ParkingSpot.class" afterPath="$PROJECT_DIR$/target/classes/com/example/ParkingSpot.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/RuleEngineController.class" afterPath="$PROJECT_DIR$/target/classes/com/example/RuleEngineController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/example/RuleEngineService.class" afterPath="$PROJECT_DIR$/target/classes/com/example/RuleEngineService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.yml" afterPath="$PROJECT_DIR$/manifest.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/ParkingSpot.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/ParkingSpot.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java" afterPath="$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
@@ -37,20 +38,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#665#666#0" expanded="false" />
-                <element signature="e#712#713#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleEngineController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RuleEngineController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="213">
+              <caret line="29" column="40" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,11 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleEngineService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ParkingSpot.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ParkingSpot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="663">
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="2" selection-end-line="78" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleEngineService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-705">
-              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="126">
+              <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +80,8 @@
       <file leaf-file-name="Event.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Event.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="240">
+              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -83,8 +90,8 @@
       <file leaf-file-name="Asset.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Asset.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="300">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding>
                 <element signature="e#282#283#0" expanded="true" />
                 <element signature="e#305#306#0" expanded="true" />
@@ -108,8 +115,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/example/ParkingSpots.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/Asset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/ParkingSpot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java" />
       </list>
     </option>
   </component>
@@ -560,11 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -572,11 +576,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -623,11 +623,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,11 +641,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -667,11 +659,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -690,11 +678,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -738,31 +722,37 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/em_rule_engine_alarms.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ParkingSpots.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="29" column="40" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#665#666#0" expanded="false" />
-            <element signature="e#712#713#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ParkingSpots.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Event.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/ParkingSpot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="663">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="2" selection-end-line="78" selection-end-column="80" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Asset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="300">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding>
             <element signature="e#282#283#0" expanded="true" />
             <element signature="e#305#306#0" expanded="true" />
@@ -770,20 +760,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/Event.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="240">
+          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/RuleEngineService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="126">
+          <caret line="77" column="30" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

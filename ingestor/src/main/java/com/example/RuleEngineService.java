@@ -59,7 +59,7 @@ public class RuleEngineService {
         String json2Return = "{ \"data\":[";
         for(ParkingSpot parkingSpot : allLocations) {
             json2Return = json2Return + parkingSpot.toJson() + ",";
-            System.out.println("lolcatz" + parkingSpot.toJson());
+            System.out.println(parkingSpot.toJson());
         }
         json2Return = json2Return.substring(0, json2Return.length() - 1);
         json2Return = json2Return + "]}";
@@ -100,47 +100,22 @@ public class RuleEngineService {
 				parkingSpot.setStatus(false);
 			}
 		}
+		int filled = 0;
+		int empty = 0;
+		for (ParkingSpot parkingSpot : allLocations) {
+			if (parkingSpot.getStatus() == true) {
+				filled++;
+			}
+			else {
+				empty++;
+			}
+		}
+		Event event = new Event();
+		event.setNum_filled(filled);
+		event.setNum_open(empty);
+		event.setTs(end);
+		events.add(event);
 
-//        			long ts = (long) ((LinkedHashMap)l).get("timestamp");
-//        			String event_type = (String) ((LinkedHashMap)l).get("event-type");
-//        			String location_uid = (String) ((LinkedHashMap)l).get("location-uid");
-//        			for(ParkingSpot s: allLocations){
-//        				if(s.getLocationuid().equals(location_uid)){
-//        					if(event_type.equals("PKIN")){
-//        						if(!s.getStatus()){
-//        							s.setStatus(true);
-//        							s.setLast_ts(ts);
-//        							Event last = events.get(events.size() - 1);
-//            						Event e = new Event();
-//            	        			e.setNum_filled(Math.min(22,last.getNum_filled() + 1));
-//            	        			e.setNum_open(22 - e.getNum_filled());
-//            	        			e.setTs(ts);
-//            	        			System.out.println("lolCATS" + s.getLocationuid() + " " +  s.get_chance() + " " + s.getLast_ts() + " " + s.getStatus());
-//            	        			events.add(e);
-//        						}
-//        					}
-//        					else{
-//        						if(s.getStatus()){
-//        							s.setStatus(false);
-//        							s.setLast_ts(ts);
-//        							Event last = events.get(events.size() - 1);
-//            						Event e = new Event();
-//            	        			e.setNum_filled(Math.max(0, last.getNum_filled() - 1));
-//            	        			e.setNum_open(22 - e.getNum_filled());
-//            	        			e.setTs(ts);
-//
-//            	        			System.out.println(s.getLocationuid() + " " +  s.get_chance() + " " + s.getLast_ts() + " " + s.getStatus());
-//
-//            	        			events.add(e);
-//        						}
-//        					}
-//        					break;
-//        				}
-//        			}
-//        		}
-//    		}
-//
-//    	}
     	start = end;
     	end = start + 15000;
     

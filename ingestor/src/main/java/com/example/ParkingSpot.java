@@ -72,8 +72,11 @@ public class ParkingSpot {
     	if(!status){
     		return 10.0;
     	}
-    	Date date = new Date();
-    	return Math.min(date.getTime() - last_ts, 60000*15.0) / (6000.0 * 15.0);
+		else {
+			return 0.0;
+		}
+//    	Date date = new Date();
+//    	return Math.min(date.getTime() - last_ts, 60000*15.0) / (6000.0 * 15.0);
     }
 	public long getLast_ts() {
 		return last_ts;
